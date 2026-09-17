@@ -100,8 +100,8 @@ namespace Explorf
                 }
             }
 
-            await Task.Delay(500);
-            Application.Current.Shutdown();
+            // await Task.Delay(500);
+            // Application.Current.Shutdown();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
