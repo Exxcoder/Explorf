@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="appoh.ico" alt="Explorf Logo" width="96" height="96" />
+  <img src="imgonline-com-ua-Resize-5fX2Z8ZRg4OU3J.png" alt="Explorf Logo" width="96" height="96" />
 
   <h1>Explorf</h1>
 
