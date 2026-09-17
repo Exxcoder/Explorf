@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Input;
 using System.Xml.Serialization;
 
 namespace Explorf
@@ -32,6 +33,21 @@ namespace Explorf
             InitializeComponent();
             LoadSettings();
             FolderListView.ItemsSource = Folders;
+        }
+
+        // Перетаскивание окна мышью за любую свободную область
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                DragMove();
+            }
+        }
+
+        // Закрытие окна по кнопке ✕ в шапке
+        private void BtnClose_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
@@ -100,8 +116,8 @@ namespace Explorf
                 }
             }
 
-            await Task.Delay(500);
-            Application.Current.Shutdown();
+           // await Task.Delay(500);
+           // Application.Current.Shutdown();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
