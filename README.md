@@ -1,6 +1,8 @@
 <div align="center">
 
-  <img src="appoh.ico" alt="Explorf Logo" width="96" height="96" />
+  <img src="ScreenProg3.png" alt="Explorf Logo" width="96" height="96" />
+  <img src="ScreenProg2.png" alt="Explorf Logo" width="96" height="96" />
+  <img src="ScreenProg.png" alt="Explorf Logo" width="96" height="96" />
 
   <h1>Explorf</h1>
 
