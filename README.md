@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img src="ScreenProg3.png" alt="Explorf Logo" width="96" height="96" />
-  <img src="ScreenProg2.png" alt="Explorf Logo" width="96" height="96" />
   <img src="ScreenProg.png" alt="Explorf Logo" width="96" height="96" />
 
   <h1>Explorf</h1>
@@ -47,7 +45,9 @@
 
 <div align="center">
   <!-- Замените ссылку ниже на ваш реальный скриншот или GIF -->
-  <img src="https://via.placeholder.com/680x520/18181B/FFFFFF?text=Explorf+Interface+Preview" alt="Интерфейс Explorf" width="600" />
+   <img src="ScreenProg3.png" alt="Explorf Logo" width="96" height="96" />
+  <img src="ScreenProg2.png" alt="Explorf Logo" width="250" height="250" />
+  <img src="ScreenProg.png" alt="Интерфейс Explorf" width="600" />
 </div>
 
 ---
