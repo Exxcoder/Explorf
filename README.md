@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img src="ScreenProg.png" alt="Explorf Logo" width="600"/>
-
   <h1>Explorf</h1>
 
   <p><b>Быстрый менеджер рабочих пространств и сессий Проводника Windows</b></p>
